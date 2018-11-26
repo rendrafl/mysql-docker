@@ -1,0 +1,1 @@
+mysqldump --single-transaction -uroot -p namadb userid userlevelprivilege userlevels usermoduleprivilege usermodules usersubmoduleprivilege usersubmodules mwarehouse mitem mitemtree titemhargah titemhargad mkasir mperiode variabel mitemtipe mcoa | gzip > kdsprbfsn-master.`date +%Y-%m-%d`.sql.gz
